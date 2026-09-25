@@ -15,7 +15,7 @@ Watashitachi wa mainichi, Furekushe no seisan sukejuuru CSV wo mite, hinshitsu k
 Demo, kore ni wa mittsu no komarigoto ga arimashita:
 
 1. **Mainichi CSV wo me de kakunin**: Minogasanai you ni, mainichi jibun de fairu wo hiraite kakunin suru hitsuyou ga arimashita.
-2. **Shirasete kureru shikumi ga nai**: Koutei ga chikazuite mo, dare mo oshiete kuremasen deshita.
+2. **Shirasete kureru shikumi ga nai**: Koutei ga chikazuite mo, tsuuchi ga kuru shikumi ga naku, kizukemasen deshita.
 3. **Zenkai itsu nagareta ka wakaranai**: Kako ni itsu nagareta ka, shiraberu houhou ga arimasen deshita.
 
 ---
