@@ -30,7 +30,7 @@ Based on Nukina-san's request, we added four features to the Seibi app.
 2. **Four browse screens, including Search and a SHOP-by-SHOP calendar**
    We built four screens: Watch List, product/process code Search, SHOP Calendar, and Customer Lookup. Search results display in the order parent product number → child product number → process code.
 
-3. **Real-time LINE WORKS notifications with an "Add to Calendar" button**
+3. **Real-time LINE WORKS notifications**
    When a watched process is newly detected, 3 days before, or on the day itself, a notification is also sent automatically to LINE WORKS.
 
 4. **Subscription support for the device's native calendar**
