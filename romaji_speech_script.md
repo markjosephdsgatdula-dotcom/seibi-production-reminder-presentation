@@ -28,7 +28,7 @@ Nukina-san no youbou wo moto ni, Seibi apuri ni yottsu no kinou wo tsuika shimas
    Hinshitsu kaizen de oitai koutei koodo wo touroku suru dake de, "shinki oodaa kenchi" "mikka mae" "toujitsu" no mittsu no taimingu de, iPad ni pusshu tsuuchi ga todokimasu.
 
 2. **Kensaku, SHOP-betsu karendaa nado yottsu no gamen**
-   Wotchi ichiran, hinban/koutei koodo kensaku, SHOP-betsu karendaa, torihikisaki kensaku no yottsu no gamen wo tsukurimashita. Kensaku de wa oya-hinban → ko-hinban → koutei koodo no junban de hyouji suru node, genba no kankaku de sagasemasu.
+   Wotchi ichiran, hinban/koutei koodo kensaku, SHOP-betsu karendaa, torihikisaki kensaku no yottsu no gamen wo tsukurimashita. Kensaku kekka wa oya-hinban → ko-hinban → koutei koodo no junban de hyouji shimasu.
 
 3. **LINE WORKS e no riarutaimu tsuuchi to karendaa tsuika botan**
    Wotchi shite iru koutei ga atarashiku touroku sareta toki, mikka mae, toujitsu ni, LINE WORKS ni mo jidou de tsuuchi ga todokimasu. Messeeji ni wa "karendaa ni tsuika" botan ga ari, tappu suru dake de jibun no karendaa apuri ni yotei wo tsuika dekimasu.
@@ -40,19 +40,15 @@ Nukina-san no youbou wo moto ni, Seibi apuri ni yottsu no kinou wo tsuika shimas
 
 ## 3. Jissai no Seika
 
-Kore wa setsumei dake de naku, jissai ni ugokashite kakunin shimashita.
+Kakunin ni tsuite wa,
 
-- Nukina-san ga jissai ni wotchi shite iru koutei de, pusshu tsuuchi ga honmono no iPad ni todoku koto wo kakunin shimashita.
-- LINE WORKS e no tsuuchi mo, jissai ni todoku koto wo kakunin shite imasu. "Karendaa ni tsuika" botan mo jissai ni ugoite, karendaa apuri ni yotei ga tsuika sareru koto made kakunin shimashita.
-
-Genba no koe wo kikinagara, SHOP de shiborikomeru kinou ya hyouji naiyou mo, tsukaiyasui you ni kaizen wo tsuzukete imasu.
+- Pusshu tsuuchi ga jissai ni iPad ni todoku koto wo kakunin shimashita.
+- LINE WORKS e no tsuuchi mo, jissai ni todoku koto wo kakunin shimashita.
+- Karendaa apuri ni yotei ga jissai ni han'ei sareru koto mo kakunin shimashita.
 
 ---
 
 ## 🎤 Kuroojingu
 
-"Seisan Rimaindo" wa, genba no hitori no koe kara umareta kinou desu.
-
-Chiisana youbou demo, jissai ni tsukau hito no koe wo moto ni sugu katachi ni shite, genba de hontou ni yakudatsu kinou ni sodatete ikimasu. Korekara mo sono yarikata wo tsuzukete ikimasu.
-
+Ijou de happyou wo owarimasu.
 Go-seichou arigatou gozaimashita.
