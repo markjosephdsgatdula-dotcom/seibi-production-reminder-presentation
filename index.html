@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Seibi - 生産リマインド機能アップデート</title>
+
+  <!-- Google Fonts: Outfit & Noto Sans JP -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;600;700;800&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <!-- Deck stylesheet (same look as the main Seibi app-overview deck) -->
+  <link rel="stylesheet" href="styles.css">
+  <!-- Real-app UI mockup styles, specific to this deck -->
+  <link rel="stylesheet" href="mockup.css">
+</head>
+<body>
+  <!-- Background Glow Elements -->
+  <div class="bg-glow bg-glow-1"></div>
+  <div class="bg-glow bg-glow-2"></div>
+
+  <!-- Global Header -->
+  <header class="global-header">
+    <div class="brand">
+      <i class="fa-solid fa-briefcase brand-icon"></i>
+      <span class="brand-text">Seibi</span>
+    </div>
+    <div class="slide-indicator">
+      <span id="current-slide-num">1</span> / <span id="total-slides-num">8</span>
+    </div>
+  </header>
+
+  <!-- Presentation Main Container -->
+  <main class="presentation-container" id="presentation-container">
+
+    <!-- SLIDE 1: タイトル -->
+    <section class="slide active" id="slide-1" data-slide="1">
+      <div class="slide-content title-layout">
+        <div class="title-badge"><i class="fa-solid fa-bell"></i> 機能アップデート報告</div>
+        <h1 class="main-title">生産リマインド</h1>
+        <p class="main-subtitle">工程の予定を、もう見逃さない。</p>
+        <div class="title-divider"></div>
+        <p class="presenter-tag"><i class="fa-solid fa-user-gear"></i> 溶接ラインチーム</p>
+      </div>
+    </section>
+
+    <!-- SLIDE 2: 背景と課題 -->
+    <section class="slide" id="slide-2" data-slide="2">
+      <div class="slide-content problem-layout">
+        <h2 class="slide-title"><i class="fa-solid fa-triangle-exclamation"></i> 背景と課題</h2>
+        <p class="slide-subtitle">日次生産スケジュール（フレクシェCSV）運用による3つの現場課題</p>
+
+        <div class="problem-cards-grid">
+          <div class="problem-card">
+            <div class="card-icon"><i class="fa-solid fa-file-csv"></i></div>
+            <h3>毎日CSVを目視確認</h3>
+          </div>
+          <div class="problem-card">
+            <div class="card-icon"><i class="fa-solid fa-bell-slash"></i></div>
+            <h3>通知される仕組みがない</h3>
+          </div>
+          <div class="problem-card">
+            <div class="card-icon"><i class="fa-solid fa-clock-rotate-left"></i></div>
+            <h3>前回いつ流れたか分からない</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SLIDE 3: 解決策と機能 (Agenda) -->
+    <section class="slide" id="slide-3" data-slide="3">
+      <div class="slide-content section-intro-layout">
+        <h2 class="section-intro-title">解決策と機能</h2>
+        <div class="section-intro-list">
+          <div class="section-intro-item">
+            <span class="section-intro-index">1</span>
+            <span class="section-intro-text">工程を"ウォッチ"して3パターンで自動通知</span>
+          </div>
+          <div class="section-intro-item">
+            <span class="section-intro-index">2</span>
+            <span class="section-intro-text">検索・SHOP別カレンダーなど4つの一覧画面</span>
+          </div>
+          <div class="section-intro-item">
+            <span class="section-intro-index">3</span>
+            <span class="section-intro-text">LINE WORKSへの日次レポート配信</span>
+          </div>
+          <div class="section-intro-item">
+            <span class="section-intro-index">4</span>
+            <span class="section-intro-text">端末標準カレンダーへの購読対応</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SLIDE 4: 解決策(1) ウォッチ機能 -->
+    <section class="slide" id="slide-4" data-slide="4">
+      <div class="slide-content split-layout">
+        <div class="text-col">
+          <h2 class="slide-title"><i class="fa-solid fa-eye"></i> 解決策：工程を"ウォッチ"</h2>
+          <p class="slide-subtitle">気になる工程を登録するだけで、あとは自動通知</p>
+
+          <ul class="bullet-list">
+            <li>
+              <div class="list-num">01</div>
+              <div class="list-text">
+                <strong>新規オーダー・3日前・当日の3通知</strong>
+              </div>
+            </li>
+            <li>
+              <div class="list-num">02</div>
+              <div class="list-text">
+                <strong>次回・前回の稼働日を一覧で常時確認</strong>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <div class="visual-col">
+          <div class="pr-mock-frame">
+            <div class="pr-mock-frame-bar">
+              <span class="pr-mock-dot"></span><span class="pr-mock-dot"></span><span class="pr-mock-dot"></span>
+              <span>ウォッチ一覧</span>
+            </div>
+            <div class="pr-mock-body">
+              <div class="pr-mock-card">
+                <div>
+                  <p class="pr-mock-code">AMAH-LP12-SAA2</p>
+                  <p class="pr-mock-label">シングルアーム曲げ</p>
+                  <p class="pr-mock-code-sub">KO0128-SAA-01-01</p>
+                  <p class="pr-mock-flags">新規 · 3d · 当日</p>
+                </div>
+                <div class="pr-mock-side">
+                  <span class="pr-mock-next-date">2026-10-06</span>
+                  <span class="pr-mock-next-days">あと10日</span>
+                  <span class="pr-mock-last-label">前回</span>
+                  <span class="pr-mock-last-date">2026-09-11</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SLIDE 5: 解決策(2) 検索 -->
+    <section class="slide" id="slide-5" data-slide="5">
+      <div class="slide-content split-layout">
+        <div class="text-col">
+          <h2 class="slide-title"><i class="fa-solid fa-magnifying-glass"></i> 解決策：品番・工程コードで検索</h2>
+          <p class="slide-subtitle">親品番から探しても、工程コードから探しても瞬時にヒット</p>
+
+          <ul class="bullet-list">
+            <li>
+              <div class="list-num">01</div>
+              <div class="list-text">
+                <strong>親品番→子品番→工程コードの階層表示</strong>
+              </div>
+            </li>
+            <li>
+              <div class="list-num">02</div>
+              <div class="list-text">
+                <strong>全SHOP対応、SHOPごとの絞り込みも可能</strong>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <div class="visual-col">
+          <div class="pr-mock-frame">
+            <div class="pr-mock-frame-bar">
+              <span class="pr-mock-dot"></span><span class="pr-mock-dot"></span><span class="pr-mock-dot"></span>
+              <span>検索</span>
+            </div>
+            <div class="pr-mock-body">
+              <div class="pr-mock-toolbar">
+                <div class="pr-mock-search-input">CPA-1</div>
+                <div class="pr-mock-shop-chip">すべてのSHOP</div>
+              </div>
+              <div class="pr-mock-card">
+                <div>
+                  <p class="pr-mock-code">CPA-1</p>
+                  <p class="pr-mock-code-sub">KO0036-000</p>
+                  <p class="pr-mock-flags">次回: 2026-09-29 (組立) ・ 前回: 2026-08-28 (組立)</p>
+                </div>
+              </div>
+              <div class="pr-mock-card">
+                <div>
+                  <p class="pr-mock-code">CPA-1</p>
+                  <p class="pr-mock-label">サイドフレーム右(F5)</p>
+                  <p class="pr-mock-code-sub">KO0036-000-01</p>
+                  <p class="pr-mock-flags">次回: 2026-09-28 (塗装) ・ 前回: 2026-09-18 (塗装)</p>
+                </div>
+              </div>
+              <div class="pr-mock-card">
+                <div>
+                  <p class="pr-mock-code">CPA-1</p>
+                  <p class="pr-mock-label">サイドフレーム左右溶接</p>
+                  <p class="pr-mock-code-sub">KO0036-000-01-01</p>
+                  <p class="pr-mock-flags">次回: 2026-09-29 (S4) ・ 前回: 2026-08-26 (S4)</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SLIDE 6: 解決策(3) カレンダー -->
+    <section class="slide" id="slide-6" data-slide="6">
+      <div class="slide-content split-layout">
+        <div class="text-col">
+          <h2 class="slide-title"><i class="fa-solid fa-calendar-days"></i> 解決策：SHOP別カレンダー</h2>
+          <p class="slide-subtitle">今日から最大3.5ヶ月先までの予定をSHOPごとに一覧表示</p>
+
+          <ul class="bullet-list">
+            <li>
+              <div class="list-num">01</div>
+              <div class="list-text">
+                <strong>日付ごとにグループ化した見やすい一覧</strong>
+              </div>
+            </li>
+            <li>
+              <div class="list-num">02</div>
+              <div class="list-text">
+                <strong>端末の標準カレンダーアプリへの購読も可能</strong>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <div class="visual-col">
+          <div class="pr-mock-frame">
+            <div class="pr-mock-frame-bar">
+              <span class="pr-mock-dot"></span><span class="pr-mock-dot"></span><span class="pr-mock-dot"></span>
+              <span>カレンダー — SHOP: S4</span>
+            </div>
+            <div class="pr-mock-body">
+              <p class="pr-mock-day-heading">2026-09-28</p>
+              <div class="pr-mock-card">
+                <div>
+                  <p class="pr-mock-code">US-183BK</p>
+                  <p class="pr-mock-label">水受けパイプスポット溶接</p>
+                  <p class="pr-mock-code-sub">KO0470-IBK-05-01</p>
+                  <p class="pr-mock-flags">数量: 60 ・ 納期: 2026-10-02</p>
+                </div>
+              </div>
+              <div class="pr-mock-card">
+                <div>
+                  <p class="pr-mock-code">SJKH-C2-E6A1Z</p>
+                  <p class="pr-mock-label">中間支柱2段組付溶接</p>
+                  <p class="pr-mock-code-sub">KO0343-E6A-01-01</p>
+                  <p class="pr-mock-flags">数量: 40 ・ 納期: 2026-10-02</p>
+                </div>
+              </div>
+              <div class="pr-mock-card">
+                <div>
+                  <p class="pr-mock-code">US-185BK</p>
+                  <p class="pr-mock-label">後パネルTIG</p>
+                  <p class="pr-mock-code-sub">KO0471-000-02-01</p>
+                  <p class="pr-mock-flags">数量: 42 ・ 納期: 2026-10-02</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SLIDE 7: 実際の成果 -->
+    <section class="slide" id="slide-7" data-slide="7">
+      <div class="slide-content value-layout">
+        <h2 class="slide-title value-title"><i class="fa-solid fa-check-double"></i> 実際の成果</h2>
+        <p class="slide-subtitle value-subtitle">本番環境で、実際に届いた通知・レポート</p>
+
+        <div class="pr-mock-message-card">
+          <div class="pr-mock-message-header"><i class="fa-brands fa-line"></i> LINE WORKS — 管理者向け日次レポート</div>
+          <div class="pr-mock-message-body">📦 生産リマインド日次レポート
+
+■ スキャン日: 2026-09-24
+■ 新規: 98 / 変更: 198 / 完了: 163 / 取消: 2
+
+■ 本日の通知件数: 新規0 / 3日前1 / 当日0</div>
+        </div>
+        <span class="pr-mock-message-tag"><i class="fa-solid fa-circle-check"></i> 本番環境で実際に配信されたレポート</span>
+
+        <div class="pr-mock-proof-row">
+          <div class="pr-mock-proof-card">
+            <i class="fa-solid fa-mobile-screen-button"></i>
+            <div class="pr-mock-proof-title">実機へのプッシュ通知</div>
+            <div class="pr-mock-proof-text">watchしている工程の「3日前」通知が、実際のiPadに届くことを確認済み。</div>
+          </div>
+          <div class="pr-mock-proof-card">
+            <i class="fa-solid fa-calendar-check"></i>
+            <div class="pr-mock-proof-title">端末カレンダー連携</div>
+            <div class="pr-mock-proof-text">トークン付きURLを購読するだけで、iPad標準カレンダーにも予定が反映。</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SLIDE 8: 閉会 -->
+    <section class="slide" id="slide-8" data-slide="8">
+      <div class="slide-content section-intro-layout">
+        <h2 class="section-intro-title" style="font-size: 3.5rem; color: #059669; margin-bottom: 1.5rem;">ご清聴ありがとうございました</h2>
+        <p class="slide-subtitle" style="font-size: 1.5rem; color: #64748b;">生産リマインド機能 — Seibi</p>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Global Footer Controls -->
+  <footer class="global-footer">
+    <div class="navigation-controls">
+      <button class="nav-btn" id="prev-btn"><i class="fa-solid fa-chevron-left"></i> 前へ</button>
+      <div class="slide-bullets" id="slide-bullets-container"></div>
+      <button class="nav-btn" id="next-btn">次へ <i class="fa-solid fa-chevron-right"></i></button>
+    </div>
+    <div class="progress-bar-container">
+      <div class="progress-bar" id="progress-bar-fill"></div>
+    </div>
+  </footer>
+
+  <!-- JavaScript logic (shared, unmodified) -->
+  <script src="slides.js"></script>
+</body>
+</html>
