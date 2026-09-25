@@ -156,65 +156,29 @@
   padding: 0.35rem 0.8rem;
 }
 
-/* Results / real-proof screenshot (LINE WORKS) */
+/* Results / real-proof screenshots (LINE WORKS + push notification) —
+   stacked in a visual-col, both height-capped so together with the
+   title/subtitle/bullets in text-col they never exceed the fixed slide
+   height (slide-content has overflow:hidden — confirmed real overflow
+   here once already at native size, before these caps were added). */
+.pr-mock-proof-visual {
+  flex-direction: column;
+  gap: 1rem;
+}
+
 .pr-mock-message-screenshot {
-  max-width: 340px;
-  width: 100%;
-  border-radius: 18px;
+  max-width: 100%;
+  max-height: 280px;
+  width: auto;
+  border-radius: 16px;
   box-shadow: 0 12px 30px rgba(15, 23, 42, 0.1);
   display: block;
 }
 
-.pr-mock-message-tag {
-  display: inline-block;
-  margin-top: 0.9rem;
-  font-size: 0.72rem;
-  font-weight: 700;
-  color: #059669;
-  background: #d1fae5;
-  border-radius: 20px;
-  padding: 0.35rem 0.9rem;
-}
-
-.pr-mock-proof-row {
-  display: flex;
-  gap: 1.2rem;
-  width: 100%;
-  max-width: 900px;
-  margin-top: 1.6rem;
-}
-
-.pr-mock-proof-card {
-  flex: 1;
-  background: #f8fafc;
-  border: 1px solid #cbd5e1;
-  border-radius: 16px;
-  padding: 1.3rem 1.4rem;
-  text-align: left;
-}
-
-.pr-mock-proof-card i {
-  color: #2563eb;
-  font-size: 1.3rem;
-  margin-bottom: 0.6rem;
-  display: block;
-}
-
-.pr-mock-proof-title {
-  font-size: 1rem;
-  font-weight: 800;
-  color: #0f172a;
-  margin-bottom: 0.3rem;
-}
-
-.pr-mock-proof-text {
-  font-size: 0.85rem;
-  color: #475569;
-  line-height: 1.5;
-}
-
 .pr-mock-proof-image {
-  width: 100%;
+  max-width: 100%;
+  max-height: 110px;
+  width: auto;
   border-radius: 10px;
   display: block;
   box-shadow: 0 4px 12px rgba(15, 23, 42, 0.08);
