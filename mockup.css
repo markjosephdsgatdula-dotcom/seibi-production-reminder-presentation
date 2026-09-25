@@ -248,3 +248,10 @@
   color: #475569;
   line-height: 1.5;
 }
+
+.pr-mock-proof-image {
+  width: 100%;
+  border-radius: 10px;
+  display: block;
+  box-shadow: 0 4px 12px rgba(15, 23, 42, 0.08);
+}
