@@ -10,11 +10,11 @@ Last time, I reported on the Seibi app as a whole. Today I'd like to report on a
 
 ## 1. Background and Challenges
 
-Every day, we check the Flexche production schedule CSV to see when the processes we care about are coming up.
+Every day, we check the Flexche production schedule CSV to see when a process tied to a quality issue or an ongoing improvement effort is coming up again.
 
 This created three problems:
 
-1. **Daily manual CSV checking**: To avoid missing a process they cared about, staff had to open the file themselves every day to check.
+1. **Daily manual CSV checking**: To avoid missing a process being tracked for quality follow-up, staff had to open the file themselves every day to check.
 2. **No notification mechanism**: Even as a process approached, there was no system to tell anyone.
 3. **No way to know when it last ran**: There was no way to look back and find out when that process last ran.
 
@@ -25,7 +25,7 @@ This created three problems:
 Based on Nukina-san's request, we added four features to the Seibi app.
 
 1. **"Watch" a process for automatic notification in 3 patterns**
-   Just register the process code you care about, and you'll get a push notification to your iPad at three points: "new order detected," "3 days before," and "the day of."
+   Just register the process code you're tracking for quality improvement, and you'll get a push notification to your iPad at three points: "new order detected," "3 days before," and "the day of."
 
 2. **Four browse screens, including Search and a SHOP-by-SHOP calendar**
    We built four screens: Watch List, product/process code Search, SHOP Calendar, and Customer Lookup. Search results display in the order parent product number → child product number → process code, matching how people on the floor actually think about a job.

@@ -10,11 +10,11 @@ Zenkai wa Seibi apuri zentai ni tsuite gohoukoku shimashita ga, honjitsu wa sono
 
 ## 1. Haikei to Kadai
 
-Watashitachi wa hibi, Furekushe no seisan sukejuuru CSV wo minagara, jibun ga ki ni shite iru koutei ga itsu nagareru ka wo kakunin shite imasu.
+Watashitachi wa hibi, Furekushe no seisan sukejuuru CSV wo minagara, hinshitsu kaizen no tame otte iru koutei ga itsu nagareru ka wo kakunin shite imasu.
 
 Tada, kore ni wa mittsu no kadai ga arimashita:
 
-1. **Mainichi CSV wo mokushi kakunin**: Ki ni naru koutei wo minogasanai tame ni, tantousha ga mainichi jibun de fairu wo hiraite kakunin suru hitsuyou ga arimashita.
+1. **Mainichi CSV wo mokushi kakunin**: Hinshitsu kaizen de otte iru koutei wo minogasanai tame ni, tantousha ga mainichi jibun de fairu wo hiraite kakunin suru hitsuyou ga arimashita.
 2. **Tsuuchi sareru shikumi ga nai**: Koutei ga chikazuite mo, dare mo oshiete kureru shikumi ga arimasen deshita.
 3. **Zenkai itsu nagareta ka wakaranai**: Kako ni sono koutei ga itsu nagareta ka, kiroku wo sakanoboru shudan ga arimasen deshita.
 
@@ -25,7 +25,7 @@ Tada, kore ni wa mittsu no kadai ga arimashita:
 Nukina-san no goyoubou wo moto ni, Seibi apuri ni yottsu no kinou wo tsuika shimashita.
 
 1. **Koutei wo "wotchi" shite san pataan de jidou tsuuchi**
-   Ki ni naru koutei koodo wo touroku suru dake de, "shinki oodaa kenchi" "mikka mae" "toujitsu" no mittsu no taimingu de, iPad e pusshu tsuuchi ga todokimasu.
+   Hinshitsu kaizen de oitai koutei koodo wo touroku suru dake de, "shinki oodaa kenchi" "mikka mae" "toujitsu" no mittsu no taimingu de, iPad e pusshu tsuuchi ga todokimasu.
 
 2. **Kensaku, SHOP-betsu karendaa nado yottsu no ichiran gamen**
    Wotchi ichiran, hinban/koutei koodo kensaku, SHOP-betsu karendaa, torihikisaki kensaku no yon gamen wo youi shimashita. Kensaku de wa oya-hinban → ko-hinban → koutei koodo no jun de hyouji suru node, genba no kankaku ni awasete sagasemasu.
